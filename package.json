@@ -9,6 +9,9 @@
     "test": "ng test",
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branches": ["main"]
+  }
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.0.0",
