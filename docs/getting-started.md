@@ -86,3 +86,9 @@ To configure firebase hosting use the cli setup provided by the following comman
 Here use your existing firebase project and set up the GitHub actions as well.
 This can be done with the default values.
 <br><br>
+
+## 8. Set up @angular/material
+
+> ng add @angular/material
+
+<br><br>
