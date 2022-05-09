@@ -60,4 +60,29 @@ To configure this GitHub Repository there have been multiple steps involved:
 These settings should enhance the repository quality in the future processes.
 <br><br>
 
-## 6.
+## 6. Configure Semantic Versioning
+
+To configure Semantic Versioning use the cli setup provided by the following command:
+
+> npx semantic-release-cli setup
+
+This adds Semantic Versioning to the package.json and adds a NPM_ACCESS Token to the GitHub secrets
+
+Afterwards the workflow for semantic versioning needs to be configured. This is documented at:
+
+> https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/ci-configurations/github-actions.md
+
+Then add a release key to the package.json. This is explained in:
+
+> https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#branches
+<br><br>
+
+## 7. Set up firebase hosting
+
+To configure firebase hosting use the cli setup provided by the following command:
+
+> firebase init hosting
+
+Here use your existing firebase project and set up the GitHub actions as well.
+This can be done with the default values.
+<br><br>
