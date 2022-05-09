@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/home-lightspider67",
     "ignore": [
       "firebase.json",
       "**/.*",
