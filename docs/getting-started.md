@@ -75,6 +75,7 @@ Afterwards the workflow for semantic versioning needs to be configured. This is 
 Then add a release key to the package.json. This is explained in:
 
 > https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#branches
+
 <br><br>
 
 ## 7. Set up firebase hosting

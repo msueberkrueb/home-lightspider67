@@ -1,0 +1,65 @@
+@use 'theme' as *;
+
+// Headers
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+// Breakpoints
+@mixin mobile($max-width: 480px) {
+    @media (max-width: $max-width) {
+        @content;
+    }
+}
+
+@mixin tablet($max-width: 840px) {
+    @media (max-width: $max-width) {
+        @content;
+    }
+}
+
+@mixin desktop($min-width: 841px) {
+    @media (min-width: $min-width) {
+        @content;
+    }
+}
+
+// Flex templates
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+// Shadow
+.box-shadow {
+    box-shadow: 6px 9px 15px 3px rgba(0, 0, 0, 0.25);
+}
+
+// Body modifications
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}

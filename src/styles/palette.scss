@@ -1,0 +1,71 @@
+$primary: (
+    50: #aca5deff,
+    100: #968becff,
+    200: #7F6DF2ff,
+    300: #7966f1ff,
+    400: #624befff,
+    500: #5941F2ff,
+    600: #4b36e1ff,
+    700: #3c23daff,
+    800: #2E14D9ff,
+    900: #2109c9ff,
+    A100: #638cff,
+    A200: #3067ff,
+    A400: #0042fc,
+    A700: #003ce3,
+    contrast: (
+        50: #F2F2F2,
+        100: #F2F2F2,
+        200: #F2F2F2,
+        300: #F2F2F2,
+        400: #F2F2F2,
+        500: #F2F2F2,
+        600: #F2F2F2,
+        700: #F2F2F2,
+        800: #F2F2F2,
+        900: #F2F2F2,
+        A100: #F2F2F2,
+        A200: #F2F2F2,
+        A400: #F2F2F2,
+        A700: #F2F2F2
+    )
+);
+
+$accent: (
+    50: #f1d6c1,
+    100: #ecc9aa,
+    200: #e5bd90,
+    300: #d9b181,
+    400: #c9a270,
+    500: #BF9663,
+    600: #b48b55,
+    700: #ad8148,
+    800: #a2743c,
+    900: #986b34,
+    A100: #e2ffca,
+    A200: #c6ff97,
+    A400: #aaff64,
+    A700: #9cff4b,
+    contrast: (
+        50: #000000,
+        100: #000000,
+        200: #000000,
+        300: #ffffff,
+        400: #ffffff,
+        500: #ffffff,
+        600: #ffffff,
+        700: #ffffff,
+        800: #ffffff,
+        900: #ffffff,
+        A100: #000000,
+        A200: #ffffff,
+        A400: #ffffff,
+        A700: #ffffff
+    )
+);
+
+//
+// Gradient definitions
+//
+
+$bg-gradient: radial-gradient(circle, map-get($primary, 500) 0%, map-get($primary, 800) 100%);
